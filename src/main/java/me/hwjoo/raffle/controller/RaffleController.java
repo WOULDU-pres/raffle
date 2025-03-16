@@ -11,7 +11,6 @@ import me.hwjoo.raffle.dto.response.RaffleListResponse;
 import me.hwjoo.raffle.dto.response.RaffleResponse;
 import me.hwjoo.raffle.dto.response.RaffleWinnerResponse;
 import me.hwjoo.raffle.service.RaffleService;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
@@ -24,7 +23,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
 @RestController
